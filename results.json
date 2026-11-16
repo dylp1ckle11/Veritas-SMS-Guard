@@ -1,0 +1,406 @@
+{
+  "dataset_raw": {
+    "messages": 5574,
+    "ham": 4827,
+    "spam": 747,
+    "exact_duplicate_rows": 403
+  },
+  "dataset_clean": {
+    "messages": 5141,
+    "spam": 625,
+    "ham": 4516,
+    "ham_with_link": 9,
+    "spam_with_link": 113
+  },
+  "exp1": {
+    "C": 30.0,
+    "threshold": 0.5499999999999999,
+    "n_train": 4112,
+    "n_test": 1029,
+    "systems": {
+      "Baseline: bag-of-words + Naive Bayes": {
+        "precision": 0.967741935483871,
+        "recall": 0.96,
+        "f1": 0.963855421686747,
+        "false_alarm_rate": 0.004424778761061947,
+        "tp": 120,
+        "fp": 4,
+        "fn": 5,
+        "tn": 900,
+        "f1_lo": 0.9371827500883705,
+        "f1_hi": 0.9844961240310077,
+        "far_lo": 0.001091703056768559,
+        "far_hi": 0.008978675645342313
+      },
+      "ML layer only": {
+        "precision": 1.0,
+        "recall": 0.936,
+        "f1": 0.9669421487603306,
+        "false_alarm_rate": 0.0,
+        "tp": 117,
+        "fp": 0,
+        "fn": 8,
+        "tn": 904,
+        "f1_lo": 0.9421487603305785,
+        "f1_hi": 0.9875518672199171,
+        "far_lo": 0.0,
+        "far_hi": 0.0
+      },
+      "Hybrid (ML + link/tactic rules)": {
+        "precision": 0.9915254237288136,
+        "recall": 0.936,
+        "f1": 0.9629629629629629,
+        "false_alarm_rate": 0.0011061946902654867,
+        "tp": 117,
+        "fp": 1,
+        "fn": 8,
+        "tn": 903,
+        "f1_lo": 0.936926211926212,
+        "f1_hi": 0.9841301087364078,
+        "far_lo": 0.0,
+        "far_hi": 0.003355704697986577
+      },
+      "Rules only": {
+        "precision": 0.9523809523809523,
+        "recall": 0.16,
+        "f1": 0.273972602739726,
+        "false_alarm_rate": 0.0011061946902654867,
+        "tp": 20,
+        "fp": 1,
+        "fn": 105,
+        "tn": 903,
+        "f1_lo": 0.18297682709447413,
+        "f1_hi": 0.37038263428991897,
+        "far_lo": 0.0,
+        "far_hi": 0.003355704697986577
+      }
+    }
+  },
+  "exp2": {
+    "n_train": 4112,
+    "n_test": 1029,
+    "threshold": 0.49999999999999994,
+    "systems": {
+      "Baseline: bag-of-words + Naive Bayes": {
+        "precision": 0.9754098360655737,
+        "recall": 0.952,
+        "f1": 0.9635627530364372,
+        "false_alarm_rate": 0.00331858407079646,
+        "tp": 119,
+        "fp": 3,
+        "fn": 6,
+        "tn": 901,
+        "f1_lo": 0.9374924516908213,
+        "f1_hi": 0.984375,
+        "far_lo": 0.0,
+        "far_hi": 0.007675649228724939
+      },
+      "ML layer only": {
+        "precision": 1.0,
+        "recall": 0.92,
+        "f1": 0.9583333333333334,
+        "false_alarm_rate": 0.0,
+        "tp": 115,
+        "fp": 0,
+        "fn": 10,
+        "tn": 904,
+        "f1_lo": 0.9313675875208384,
+        "f1_hi": 0.9809885931558935,
+        "far_lo": 0.0,
+        "far_hi": 0.0
+      },
+      "Hybrid (ML + link/tactic rules)": {
+        "precision": 1.0,
+        "recall": 0.92,
+        "f1": 0.9583333333333334,
+        "false_alarm_rate": 0.0,
+        "tp": 115,
+        "fp": 0,
+        "fn": 10,
+        "tn": 904,
+        "f1_lo": 0.9313675875208384,
+        "f1_hi": 0.9809885931558935,
+        "far_lo": 0.0,
+        "far_hi": 0.0
+      },
+      "Rules only": {
+        "precision": 1.0,
+        "recall": 0.208,
+        "f1": 0.3443708609271523,
+        "false_alarm_rate": 0.0,
+        "tp": 26,
+        "fp": 0,
+        "fn": 99,
+        "tn": 904,
+        "f1_lo": 0.24560271646859083,
+        "f1_hi": 0.43972340425531914,
+        "far_lo": 0.0,
+        "far_hi": 0.0
+      }
+    },
+    "random_split_test_with_near_duplicate": {
+      "all": 0.06025267249757046,
+      "spam": 0.376,
+      "ham": 0.016592920353982302
+    },
+    "n_groups": 4914,
+    "largest_group": 12,
+    "share_with_near_twin": 0.07255397782532581
+  },
+  "exp3": {
+    "n": 73,
+    "systems": {
+      "Baseline: bag-of-words + Naive Bayes": {
+        "precision": 0.8285714285714286,
+        "recall": 0.6744186046511628,
+        "f1": 0.7435897435897436,
+        "false_alarm_rate": 0.2,
+        "tp": 29,
+        "fp": 6,
+        "fn": 14,
+        "tn": 24,
+        "f1_lo": 0.6216216216216216,
+        "f1_hi": 0.8444600938967135,
+        "far_lo": 0.0625,
+        "far_hi": 0.35714285714285715
+      },
+      "ML layer only": {
+        "precision": 0.8518518518518519,
+        "recall": 0.5348837209302325,
+        "f1": 0.6571428571428571,
+        "false_alarm_rate": 0.13333333333333333,
+        "tp": 23,
+        "fp": 4,
+        "fn": 20,
+        "tn": 26,
+        "f1_lo": 0.509075500770416,
+        "f1_hi": 0.7727424242424241,
+        "far_lo": 0.03125,
+        "far_hi": 0.25809438470728774
+      },
+      "Hybrid (ML + link/tactic rules)": {
+        "precision": 0.8974358974358975,
+        "recall": 0.813953488372093,
+        "f1": 0.8536585365853658,
+        "false_alarm_rate": 0.13333333333333333,
+        "tp": 35,
+        "fp": 4,
+        "fn": 8,
+        "tn": 26,
+        "f1_lo": 0.7671232876712328,
+        "f1_hi": 0.9285714285714286,
+        "far_lo": 0.03125,
+        "far_hi": 0.25809438470728774
+      },
+      "Rules only": {
+        "precision": 1.0,
+        "recall": 0.5116279069767442,
+        "f1": 0.676923076923077,
+        "false_alarm_rate": 0.0,
+        "tp": 22,
+        "fp": 0,
+        "fn": 21,
+        "tn": 30,
+        "f1_lo": 0.5373134328358209,
+        "f1_hi": 0.7948795180722891,
+        "far_lo": 0.0,
+        "far_hi": 0.0
+      }
+    },
+    "three_way_accuracy": 0.821917808219178,
+    "per_class": {
+      "legitimate": {
+        "precision": 0.7647058823529411,
+        "recall": 0.8666666666666667,
+        "n": 30
+      },
+      "spam": {
+        "precision": 0.6875,
+        "recall": 0.9166666666666666,
+        "n": 12
+      },
+      "scam": {
+        "precision": 1.0,
+        "recall": 0.7419354838709677,
+        "n": 31
+      }
+    },
+    "confusion": [
+      [
+        26,
+        4,
+        0
+      ],
+      [
+        1,
+        11,
+        0
+      ],
+      [
+        7,
+        1,
+        23
+      ]
+    ],
+    "by_kind": [
+      {
+        "true label": "legitimate",
+        "kind": "appointment",
+        "n": 4,
+        "exactly right": 3,
+        "flagged as unwanted": 1
+      },
+      {
+        "true label": "legitimate",
+        "kind": "brand_notice",
+        "n": 10,
+        "exactly right": 8,
+        "flagged as unwanted": 2
+      },
+      {
+        "true label": "legitimate",
+        "kind": "code",
+        "n": 3,
+        "exactly right": 3,
+        "flagged as unwanted": 0
+      },
+      {
+        "true label": "legitimate",
+        "kind": "community",
+        "n": 4,
+        "exactly right": 3,
+        "flagged as unwanted": 1
+      },
+      {
+        "true label": "legitimate",
+        "kind": "personal",
+        "n": 9,
+        "exactly right": 9,
+        "flagged as unwanted": 0
+      },
+      {
+        "true label": "scam",
+        "kind": "account",
+        "n": 7,
+        "exactly right": 7,
+        "flagged as unwanted": 7
+      },
+      {
+        "true label": "scam",
+        "kind": "bank",
+        "n": 3,
+        "exactly right": 3,
+        "flagged as unwanted": 3
+      },
+      {
+        "true label": "scam",
+        "kind": "callback",
+        "n": 3,
+        "exactly right": 1,
+        "flagged as unwanted": 1
+      },
+      {
+        "true label": "scam",
+        "kind": "delivery",
+        "n": 5,
+        "exactly right": 5,
+        "flagged as unwanted": 5
+      },
+      {
+        "true label": "scam",
+        "kind": "government",
+        "n": 3,
+        "exactly right": 2,
+        "flagged as unwanted": 2
+      },
+      {
+        "true label": "scam",
+        "kind": "impersonation",
+        "n": 3,
+        "exactly right": 1,
+        "flagged as unwanted": 1
+      },
+      {
+        "true label": "scam",
+        "kind": "job_invest",
+        "n": 3,
+        "exactly right": 2,
+        "flagged as unwanted": 3
+      },
+      {
+        "true label": "scam",
+        "kind": "prize",
+        "n": 2,
+        "exactly right": 2,
+        "flagged as unwanted": 2
+      },
+      {
+        "true label": "scam",
+        "kind": "romance",
+        "n": 1,
+        "exactly right": 0,
+        "flagged as unwanted": 0
+      },
+      {
+        "true label": "scam",
+        "kind": "voicemail",
+        "n": 1,
+        "exactly right": 0,
+        "flagged as unwanted": 0
+      },
+      {
+        "true label": "spam",
+        "kind": "contest_adult",
+        "n": 3,
+        "exactly right": 3,
+        "flagged as unwanted": 3
+      },
+      {
+        "true label": "spam",
+        "kind": "finance_offer",
+        "n": 3,
+        "exactly right": 3,
+        "flagged as unwanted": 3
+      },
+      {
+        "true label": "spam",
+        "kind": "health",
+        "n": 1,
+        "exactly right": 1,
+        "flagged as unwanted": 1
+      },
+      {
+        "true label": "spam",
+        "kind": "marketing",
+        "n": 5,
+        "exactly right": 4,
+        "flagged as unwanted": 4
+      }
+    ]
+  },
+  "exp4": {
+    "attacks": {
+      "original (no attack)": {
+        "hardening_off": 0.813953488372093,
+        "hardening_on": 0.813953488372093
+      },
+      "look-alike letters": {
+        "hardening_off": 0.3488372093023256,
+        "hardening_on": 0.813953488372093
+      },
+      "hidden characters": {
+        "hardening_off": 0.6046511627906976,
+        "hardening_on": 0.813953488372093
+      },
+      "leetspeak": {
+        "hardening_off": 0.7209302325581395,
+        "hardening_on": 0.7209302325581395
+      }
+    },
+    "false_alarm_clean_off": 0.13333333333333333,
+    "false_alarm_clean_on": 0.13333333333333333,
+    "n_bad": 43,
+    "n_good": 30
+  },
+  "dataset_note": "ML layer trained on de-duplicated SMS Spam Collection; modern set written after the model was frozen."
+}

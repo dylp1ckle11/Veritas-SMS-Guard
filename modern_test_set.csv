@@ -1,0 +1,74 @@
+label,kind,text
+scam,delivery,USPS: Your package is on hold due to an unpaid customs fee of $2.99. Pay within 12 hours to avoid return: usps-customs-fee.help
+scam,delivery,DHL: Your parcel could not be delivered. Select a new delivery date: dhl-parcel-reschedule.com/track
+scam,delivery,FedEx: Your package is held at our depot. Confirm your address and pay a $1.99 redelivery fee: fdx-redeliver.info/x
+scam,delivery,Walmart: Your order is delayed. Update your delivery details and pay $3.20 to reschedule: walmart-delivery-update.vip
+scam,delivery,E-ZPass: You have an unpaid toll balance of $4.15. Pay now to avoid a $50 late fee: https://ezpass-toll-pay.top/pay
+scam,bank,Your bank account has been temporarily limited. Log in to restore access: https://secure-chasebank-login.cc/restore
+scam,bank,Wells Fargo Alert: Your debit card has been locked. Call 1-844-555-0136 right away to unlock it.
+scam,bank,"Bank of America: We noticed a login from a new device. If this wasn't you, verify your identity now at bankofamerica-secure-id.xyz"
+scam,account,Your Apple ID has been locked for security reasons. Unlock it here: appleid-unlock-verify.com
+scam,account,Netflix: Your membership has expired. Renew now to avoid losing your account: netflix-renew-account.xyz
+scam,account,PayPal: We've limited your account. Confirm your info within 24 hours: paypal-resolution-center.info/login
+scam,account,ALERT: Unauthorized login to your Instagram account. Secure it now: instagram-help-center-verify.xyz
+scam,account,Amazon Prime: Your membership payment failed. Update your card at primevideo-billing-update.com or your account will be closed.
+scam,account,Your Coinbase account will be suspended in 24h. Verify your wallet now: coinbase-secure-verify.xyz/login
+scam,account,Venmo: Your payment of $250 to Alex is pending. Confirm your identity to release the funds: venmo-secure-confirm.top/verify
+scam,impersonation,"Dad, I'm in trouble. My phone is broken and I'm using a friend's. Can you wire $800 to bail me out? Please don't tell Mom."
+scam,impersonation,"Hi Mom, this is my new number, my old phone fell in the water. Can you text me on WhatsApp? I need your help with something."
+scam,impersonation,This is your manager. I'm in a meeting and can't talk. Please buy 5 Apple gift cards ($100 each) and send me the codes. I'll reimburse you today.
+scam,government,Social Security Administration: Your SSN has been suspended due to suspicious activity. Call 1-800-555-0166 immediately to avoid arrest.
+scam,government,"IRS: You are eligible for a tax refund of $1,284.50. Submit your bank details to receive it: irs-refund-claim.top"
+scam,government,"Student loan forgiveness approved! You qualify for $20,000 in relief. Confirm your details at loan-relief-gov.top before the deadline."
+scam,callback,Microsoft Security Alert: Your computer is infected with 3 viruses. Call support at 1-855-555-0123 now.
+scam,callback,"Amazon: Suspicious charge of $799.99 for an iPhone. If you didn't make this purchase, call 1-833-555-0148 right away to cancel."
+scam,callback,"Dear customer, your electricity will be cut off today due to unpaid bills. Call 1-877-555-0190 now to avoid disconnection."
+scam,prize,Congratulations! You're our lucky winner of a 2026 Tesla Model 3. Claim now: tesla-giveaway-winner.click
+scam,prize,You've been selected for a $500 Target gift card. Claim your reward in the next 2 hours: target-rewards-center.top/claim
+scam,job_invest,Earn $200 per day liking videos. No experience needed. Message us on WhatsApp +1 (555) 013-0172 to join our team.
+scam,job_invest,"Hi, it's Sarah from the recruiting team. We found your resume online. $45/hr remote work, part-time. Reply with your WhatsApp number to get started."
+scam,job_invest,"Invest $500 and earn $5,000 in 7 days with our crypto signals. Guaranteed returns! Message us on Telegram @cryptoprofits_vip"
+scam,romance,"Hey beautiful, I saw your profile. I'm a doctor working overseas. Can we chat on Telegram? Add me: @dr_michael_88"
+scam,voicemail,You have a new voicemail from an unknown number. Listen here: bit.ly/3vm-play2
+spam,marketing,Flash sale! 50% off all sneakers today only at SoleStreet. Shop now: solestreet.example/sale. Reply STOP to unsubscribe.
+spam,marketing,Get 3 months of premium music free! Download the app and start your trial today. Msg&data rates may apply. Txt STOP to end.
+spam,marketing,Black Friday starts early! Up to 70% off electronics. Visit bestdealsnow.example. Opt-out: reply STOP.
+spam,marketing,Join our VIP club for exclusive deals and early access. Reply JOIN to subscribe. Msg freq varies. Reply STOP to opt out.
+spam,marketing,Looking for a new car? Get pre-approved in minutes! Call 555-0134 or reply YES for a free quote.
+spam,finance_offer,Refinance your mortgage at 3.1% APR. Limited time offer. Reply INFO to learn more.
+spam,finance_offer,"Need cash fast? Get approved for a payday loan up to $1,000 in minutes. Apply: quickcash.example. Reply STOP to opt out."
+spam,finance_offer,Your credit score could be higher! Free credit repair consultation. Call now 555-0178.
+spam,contest_adult,Win a free cruise! Text WIN to 55123 to enter our weekly draw. 18+. $1.99/msg. Txt STOP to cancel.
+spam,contest_adult,Hot singles near you want to meet tonight. Reply YES to 44200 to chat. $4.99/msg.
+spam,contest_adult,New ringtones just dropped! Reply TONE to 85070 for 5 tones. $2.50/wk subscription. STOP to end.
+spam,health,Lose 10 pounds in 2 weeks with this one weird trick! Order now and get a free bottle.
+legitimate,personal,"Hey, I'm outside. Come out whenever you're ready."
+legitimate,personal,"Mom: Dinner at 6, are you bringing the salad?"
+legitimate,personal,Can you send me the notes from chemistry? I missed class today.
+legitimate,personal,Happy birthday! Hope you have an amazing day. Dinner on me this weekend?
+legitimate,personal,Hey it's Dad. Landed safely. Call me when you get a chance.
+legitimate,personal,"Hi, this is Jenna from Ridgeview Realty. Is 4 PM Saturday still good for the showing?"
+legitimate,personal,Coach: Practice is moved to 4:30 today because of the game. Don't forget water bottles.
+legitimate,personal,"Running about 10 min late, grab us a table?"
+legitimate,personal,lol did you see the game last night?? unreal
+legitimate,code,Your verification code is 582914. It expires in 10 minutes. Don't share it with anyone.
+legitimate,code,Your Google verification code is G-381920.
+legitimate,code,Your Spotify code is 482910. Enter it to log in. Never share this code.
+legitimate,appointment,Reminder: Your dentist appointment is tomorrow at 9:30 AM at Maple Dental. Reply C to confirm or R to reschedule.
+legitimate,appointment,Walgreens: Your flu shot appointment is confirmed for Nov 20 at 3:15 PM.
+legitimate,appointment,Your CVS prescription is ready for pickup at 123 Main St. Reply STOP to opt out of texts.
+legitimate,appointment,Your flight DL 482 to Atlanta is on time. Boarding begins at 6:15 PM at Gate B12.
+legitimate,brand_notice,UPS: Your package will be delivered today between 2 and 6 PM. Track it at https://www.ups.com/track
+legitimate,brand_notice,Amazon: Your package was delivered. Find it at https://www.amazon.com/progress-tracker
+legitimate,brand_notice,FedEx: Your package arrives tomorrow by 8 PM. Manage delivery at https://www.fedex.com/fedextrack
+legitimate,brand_notice,Chase: A $64.20 purchase at Whole Foods was made on your card ending 1932. Not you? Call the number on the back of your card.
+legitimate,brand_notice,Bank of America: Your statement is ready. Sign in to the Bank of America app to view it.
+legitimate,brand_notice,Your Verizon bill of $82.50 is ready. View it in the My Verizon app. Autopay will process on Nov 20.
+legitimate,brand_notice,Venmo: Alex paid you $25.00 for pizza.
+legitimate,brand_notice,Your Lyft ride receipt: $14.82. Thanks for riding with us!
+legitimate,brand_notice,Your DoorDash order from Chipotle is on the way. ETA 12 minutes.
+legitimate,brand_notice,"Apple: Your Apple ID was used to sign in on a new iPhone in Boston, MA. If this was you, no action is needed."
+legitimate,community,"School closure: Due to the snow, all classes at Washington High are canceled on Monday. Check the district website for updates."
+legitimate,community,PSEG: A power outage in your area has been reported. Crews are working to restore service by 8 PM.
+legitimate,community,Reminder: Library book 'The Hobbit' is due Thursday. Renew at the front desk or online.
+legitimate,community,Xfinity: Your internet service is back online. Thanks for your patience.
